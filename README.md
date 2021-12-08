@@ -1,4 +1,4 @@
-# Game-of-Life
+# Conway's Game of Life
 
 Conway’s Game of Life is a simple simulation game (cellular automaton if you want to be fancy) that simulates artifical life on a grid composed of cells. Each cell has two states: dead or alive. 
 
