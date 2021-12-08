@@ -1,15 +1,15 @@
 # Game-of-Life
 
-Conway’s Game of Life is a simple simulation (cellular automaton) that creates artificial “life” on a grid, each cell of which is either alive or not. 
-Each generation (turn), the following rules are applied:
+Conway’s Game of Life is a simple simulation game (cellular automaton if you want to be fancy) that simulates artifical life on a grid composed of cells. Each cell has two states: dead or alive. 
 
-Any live cell with fewer than two or more than three live neighbors dies.
+Each generation of the simulation, the grid is updated using the following rules:
 
-Any live cell with two or three live neighbors lives on to the next generation.
+Any living cell with fewer than two or more than three living neighbors dies.
 
-Any dead cell with exactly three live neighbors becomes a live cell.
+Any living cell with two or three living neighbors lives on to survive to the next generation.
 
-A neighbor is defined as any adjacent cell, including diagonally adjacent ones.
+Any dead cell with exactly three living neighbors becomes a living cell.
 
-Note that these rules are applied to the whole grid at once, not one square at a time. That means the counting of neighbors is based on the situation at the start of the generation, and changes happening to neighbor cells during this generation should not influence the new state of a given cell.
+A neighbor is defined as any cell next to the cell in question, including cells that are diagonally adjacent.
 
+These rules are applied to the whole grid at once, not one cell at a time. So changes that occur to a cell when calculating the next generation should not be taken into account when evaluating the state of other cells in the same generation.
