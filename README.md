@@ -1,6 +1,7 @@
 # Game-of-Life
 
-Conway’s Game of Life is a simple simulation that creates artificial “life” on a grid, each cell of which is either alive or not. Each generation (turn), the following rules are applied:
+Conway’s Game of Life is a simple simulation (cellular automaton) that creates artificial “life” on a grid, each cell of which is either alive or not. 
+Each generation (turn), the following rules are applied:
 
 Any live cell with fewer than two or more than three live neighbors dies.
 
