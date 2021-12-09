@@ -2,6 +2,8 @@
 
 Conway’s Game of Life is a simple simulation game (cellular automaton if you want to be fancy) that simulates artifical life on a grid composed of cells. Each cell has two states: dead or alive. 
 
+![Screenshot of Game of Life](
+
 Each generation of the simulation, the grid is updated using the following rules:
 
 Any living cell with fewer than two or more than three living neighbors dies.
